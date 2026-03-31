@@ -1,0 +1,5 @@
+src/db/mond.db
+vendor/
+.htaccess
+.idea/
+src/composer.lock
