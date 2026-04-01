@@ -92,7 +92,7 @@ page_start($pageTitle);
     </div>
     <div class="field">
         <label>SMTP Password</label>
-        <input type="password" name="smtp_password" value="<?= h($smtp['password'] ?? '') ?>" autocomplete="off">
+        <input type="password" name="smtp_password" value="***" autocomplete="off">
     </div>
     <div class="field">
         <label>From Address</label>
