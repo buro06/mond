@@ -1,7 +1,7 @@
 #!/bin/bash
 service cron start
 
-chown www-data:www-data /var/www/html/db
+chown -R www-data:www-data /var/www/html/db
 
 # Install Composer dependencies on first start (vendor is not committed)
 if [ ! -d /var/www/html/vendor/phpmailer ]; then
